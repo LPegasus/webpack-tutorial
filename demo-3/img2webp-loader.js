@@ -6,6 +6,7 @@ const buf = require('buffer');
 
 module.exports = function(source, map) {
   let err = null;
+  console.log(this.resourcePath);
   const fileFullname = this.resourcePath;
   const filename = path.parse(fileFullname).base;
 
