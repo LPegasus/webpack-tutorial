@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/babel-types": "^6.25.1"
+  }
+}

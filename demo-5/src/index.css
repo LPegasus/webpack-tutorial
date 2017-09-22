@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+body, :root {
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid transparent;
+}
+
+*.hover-blue {
+  border: 1px solid transparent;
+}
+
+*.hover-blue:hover {
+  border: 1px dashed blue;
+}
